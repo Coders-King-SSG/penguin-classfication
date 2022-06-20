@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression  
 from sklearn.ensemble import RandomForestClassifier
-
+st.set_page_config(layout='centered', page_title='Penguin Classification', page_icon='logo.png')
 # Load the DataFrame
 csv_file = 'penguin.csv'
 df = pd.read_csv("penguin.csv")
